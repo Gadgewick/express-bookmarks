@@ -1,5 +1,5 @@
 {
-  "name": "express-boilerplate",
+  "name": "express-bookmarks",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,12 +18,26 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.0",
+    "valid-url": "^1.0.9",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.1.1",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadgewick/express-bookmarks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gadgewick/express-bookmarks/issues"
+  },
+  "homepage": "https://github.com/Gadgewick/express-bookmarks#readme"
 }
